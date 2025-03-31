@@ -1,0 +1,164 @@
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+/* Style for menu items */
+.sidenav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+/* Highlight the current menu item */
+.sidenav a.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Hover effect for menu items */
+.sidenav a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+/* Style for submenus (initially hidden) */
+.submenu {
+    display: none;
+    padding-left: 20px;
+}
+
+
+
+
+nav {
+
+    margin-top:-7px;
+     width: 100%;
+     color: black;
+     background: white;
+     box-sizing: border-box 10px;
+     transition: top 0.3s; /* Add a smooth transition for the top property */
+     box-shadow: #33333344 2px 2px 2px 2px;
+     
+   }
+   
+   .wrapper {
+     position: relative;
+     max-width: 1300px;
+     padding: 0px 30px;
+     height: 70px;
+     line-height: 70px;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+   
+  
+   .logo1 a
+{
+  color: #81C408;
+  font-size: 45px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 35rem;
+margin-top: 5rem;
+}
+
+
+.styled-table {
+    
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.styled-table th, .styled-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.styled-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.styled-table img {
+    max-width: 50px;
+    max-height:50px;
+}
+
+
+#uploadBtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#uploadBtn:hover {
+    background-color: #0056b3;
+}
+
+#imagePreview {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#imagePreview:hover {
+    transform: scale(1.05);
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+#user-details {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#user-details p {
+    margin: 10px 0;
+}
+
+#user-details p span {
+    font-weight: bold;
+    color: #333;
+}

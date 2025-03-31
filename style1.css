@@ -1,0 +1,594 @@
+
+#div12
+  {
+    height: 50px;
+    background-color: rgba(54, 82, 119, 0.438);
+ margin-top: 200px;
+ padding:1px;
+ width:1500px;
+margin-left: -20px;
+
+ 
+  }
+  #div12::before
+  {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(100px); /* Adjust the blur intensity as needed */
+    z-index: -1;
+    
+  }
+@media (max-width: 768px) {
+  .div12{
+      font-size: 1.5em;
+  }
+  p {
+      font-size: 1em;
+  }
+}
+
+.div1
+{
+  
+  margin-top: 70px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  width: 400px;
+  height: 550px;
+  margin-left: 34%;
+  background-color: white;
+  box-shadow:1px 1px 2px 2px;
+
+}
+#active
+  {
+    color: red;
+  }
+  ul li a:hover
+  {
+color: red;
+  }
+
+#img1
+{
+  width: 200px;
+ margin-left: 25%;
+}
+.Up
+{
+  margin-left: 10%;
+  width: 300px;
+  height: 60px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin-bottom: 5px;
+  border-radius: 6px;
+
+}
+.Up:focus
+{
+  margin-left: 10%;
+  width: 300px;
+  height: 60px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 4px black;
+  margin-bottom: 5px;
+  border-radius: 6px;
+}
+#subut
+{
+margin-left: 10%;
+transform: translateY(-15px);
+width: 300px;
+height: 50px;
+background-color: rgba(104, 85, 224, 1);
+color:aliceblue;
+cursor: pointer;
+  border: 0;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+}
+#text1
+{
+font-size: small;
+text-decoration: underline blue;
+color: blue;
+}
+
+.line
+{
+  width:50%;
+  
+}
+#align
+{
+  text-align: center;
+
+}
+#img2
+{
+  width: 40px;
+  margin:4px;
+}
+#img3
+{
+  width: 40px;
+  margin:4px;
+  margin-top:7px ;
+}
+#div2
+{
+  width: 14%;
+  border-radius:50%;
+  box-sizing: border-box;
+display: inline-flex;
+  border: 1.5px solid gray;
+  border-color: black;
+  margin-left: 25%;
+
+}
+#div2:hover
+{
+background-color:#2496ff;
+}
+
+
+#google-im
+{
+  width: 25px;
+
+  
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+
+#f1
+{
+width: fit-content;
+
+height: 37px;
+border-radius: 2px;
+margin-left: 55px;
+}
+
+#f2
+{
+  
+  background-color:#fff;
+  width: 240px;
+  margin-left: 20px;
+}
+
+#f3
+{
+  height:35px;
+  width: 200px;
+margin-left:40px ;
+border:1px solid #4285f4;
+background-color: #4285f4;
+color: #fff;
+}
+
+#f4
+{
+
+height:0px;
+
+}
+
+#tex
+{
+  font-size: small;
+  margin-left: 35%;
+}
+
+#err1
+{
+ 
+
+ 
+  color: red;
+
+}
+ #log1
+ {
+  margin-left:200px ;
+  background-color:#fff;
+  width: 190px;
+  height: 100px;
+  text-align:center ;
+  text-transform: capitalize;
+ }
+ #log2
+ {
+  margin-top: 200px;
+  margin-left:200px ;
+  background-color: #2496ff;
+  width: fit-content;
+ }
+ 
+ .sidebar {
+margin-left: 0px;
+margin-top: 3px;
+  padding: 1px;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height:fit-content;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-top: 10px;
+ 
+  padding: 1px 16px;
+  height:fit-content;
+width: 100%;
+ 
+  overflow:auto;
+
+  scrollbar-color:green;
+  scrollbar-width: 100px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+#imagePreview
+{
+  margin-top: 12px;
+width:110px;
+height:110px;
+border-radius: 55px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #78b178; /* Change this to your desired thumb color */
+  border-radius: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ecf6f800; /* Change this to your desired track color */
+  border-radius: 6px;
+}
+
+/* Additional styles for Firefox */
+/* Firefox supports scrollbar styling through scrollbar-color and scrollbar-width */
+/* You can adjust the colors and width as needed */
+.content {
+  scrollbar-color: #3498db #f1f1f1;
+  scrollbar-width: thin;
+}
+
+/* Additional styles for Microsoft Edge and Internet Explorer */
+/* These browsers support scrollbar styling using the -ms- prefix */
+/* You can adjust the colors and width as needed */
+.content {
+  -ms-overflow-style: none; /* IE and Edge hide scrollbar by default */
+  scrollbar-width: thin;
+  scrollbar-color: #aeb3b6 #f1f1f1;
+}
+
+.content:hover {
+  -ms-overflow-style: scrollbar; /* Show scrollbar on hover in IE and Edge */
+}
+#d6
+{
+
+
+
+  width: 100%;
+  font-family:Georgia;
+  font-size: 17px;
+  border-color: black;
+  font-style: italic;
+padding-top: 3px;
+
+
+ 
+}
+
+label
+{
+  text-align: right;
+
+}
+
+#mov
+{
+margin-left: 250px;
+width:900px;
+border-radius: 20px;
+background-color: #55555527;
+box-shadow:2px 2px 2px 2px #555;
+
+}
+.s1
+  {
+background-color: white;
+width: 800px;
+margin-bottom: 2px;
+padding: 1rem;
+box-sizing: border-box;
+border: 3px solid rgb(112, 64, 64);
+box-shadow: 200px;
+border-radius: 20px;
+margin-left: 7%;
+margin-top: 10px;
+
+
+}
+#tptext{
+margin-left: 300px;
+}
+.In
+{
+  height: 30px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  border-radius: 6px;
+}
+.In:focus
+{
+
+ 
+  height: 30px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1px black;
+  margin-bottom: 5px;
+  border-radius: 6px;
+}
+
+.ft
+{
+  font-size:22px;
+  transform: translateY(-11px);
+  font-weight:bold;
+  padding-top: 12px;
+}
+tr td
+{
+  width: fit-content;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #08ed99ea;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+
+}
+
+
+
+#signup-button
+{
+  margin-left: 40%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 140px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  border-color: rgb(104, 85, 224, 1);
+  
+}
+#signup-button:hover
+{
+  background-color:rgb(104, 85, 224, 1) ;
+  color:#fff;
+}
+#signup-bg
+{
+
+backdrop-filter: blur(13px);
+  background-image: url(./img/food-4k-1vrcb0mw76zcg4qf.jpg);
+}
+.invalid
+{
+  background-color:gray;
+}
+#s12
+{
+  margin-left: 200px;
+  margin-top: 20px;
+}
+#searchInput
+{
+  width: 200px;
+  height: 40px;
+}
+
+
+.messageContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  z-index: 99999; /* Ensure it's displayed in front of other elements */
+  
+}
+
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal content */
+.modal1-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 5% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Close button */
+.close1 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 5% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+.custom-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.custom-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.custom-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.custom-close:hover,
+.custom-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.logo1 a
+{
+  color: #81C408;
+  font-size: 45px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 35rem;
+margin-top: 5rem;
+}
+
+
+.In1{
+  height: 30px;
+
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  color: black;
+}
+.In1:focus
+{
+
+ 
+  height: 30px;
+
+  box-sizing: border-box;
+  border: 1px black;
+  margin-bottom: 5px;
+  border-radius: 6px;
+}

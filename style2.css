@@ -1,0 +1,819 @@
+
+#div12
+  {
+    height: 50px;
+    background-color: rgba(54, 82, 119, 0.438);
+ margin-top: 200px;
+ padding:1px;
+ width:1500px;
+margin-left: -20px;
+
+ 
+  }
+  #div12::before
+  {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(100px); /* Adjust the blur intensity as needed */
+    z-index: -1;
+    
+  }
+@media (max-width: 768px) {
+  .div12{
+      font-size: 1.5em;
+  }
+  p {
+      font-size: 1em;
+  }
+}
+
+.div1
+{
+  
+  margin-top: 70px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  width: 400px;
+  height: 550px;
+  margin-left: 34%;
+  background-color: white;
+  box-shadow:1px 1px 2px 2px;
+
+}
+#active
+  {
+    color: red;
+  }
+  ul li a:hover
+  {
+color: red;
+  }
+
+#img1
+{
+  width: 200px;
+ margin-left: 25%;
+}
+.Up
+{
+  margin-left: 10%;
+  width: 300px;
+  height: 60px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin-bottom: 5px;
+  border-radius: 6px;
+
+}
+.Up:focus
+{
+  margin-left: 10%;
+  width: 300px;
+  height: 60px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 4px black;
+  margin-bottom: 5px;
+  border-radius: 6px;
+}
+#subut
+{
+margin-left: 10%;
+transform: translateY(-15px);
+width: 300px;
+height: 50px;
+background-color: rgba(104, 85, 224, 1);
+color:aliceblue;
+cursor: pointer;
+  border: 0;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+}
+#text1
+{
+font-size: small;
+text-decoration: underline blue;
+color: blue;
+}
+
+.line
+{
+  width:50%;
+  
+}
+#align
+{
+  text-align: center;
+
+}
+#img2
+{
+  width: 40px;
+  margin:4px;
+}
+#img3
+{
+  width: 40px;
+  margin:4px;
+  margin-top:7px ;
+}
+#div2
+{
+  width: 14%;
+  border-radius:50%;
+  box-sizing: border-box;
+display: inline-flex;
+  border: 1.5px solid gray;
+  border-color: black;
+  margin-left: 25%;
+
+}
+#div2:hover
+{
+background-color:#2496ff;
+}
+
+
+#google-im
+{
+  width: 25px;
+
+  
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+
+#f1
+{
+width: fit-content;
+
+height: 37px;
+border-radius: 2px;
+margin-left: 55px;
+}
+
+#f2
+{
+  
+  background-color:#fff;
+  width: 240px;
+  margin-left: 20px;
+}
+
+#f3
+{
+  height:35px;
+  width: 200px;
+margin-left:40px ;
+border:1px solid #4285f4;
+background-color: #4285f4;
+color: #fff;
+}
+
+#f4
+{
+
+height:0px;
+
+}
+
+#tex
+{
+  font-size: small;
+  margin-left: 35%;
+}
+
+#err1
+{
+ 
+
+ 
+  color: red;
+
+}
+ #log1
+ {
+  margin-left:200px ;
+  background-color:#fff;
+  width: 190px;
+  height: 100px;
+  text-align:center ;
+  text-transform: capitalize;
+ }
+ #log2
+ {
+  margin-top: 200px;
+  margin-left:200px ;
+  background-color: #2496ff;
+  width: fit-content;
+ }
+ 
+ .content {
+  margin-left: 250px; /* Adjust margin to accommodate the sidebar width */
+  padding: 20px; /* Add padding for spacing */
+  background-color: #f9f9f9; /* Set background color */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically in the center */
+  width: fit-content;
+}
+
+/* Style for the image */
+#round {
+  border-radius: 50%; /* Make the image round */
+  width: 150px; /* Adjust width */
+  height: 150px; /* Adjust height */
+  margin-right: 20px; /* Add margin to separate from the details */
+  z-index: 1; /* Ensure the image is behind the details */
+}
+
+/* Style for the info div */
+#user-details {
+  background-color: #ffffff; /* Set background color */
+  padding: 20px; /* Add padding */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  margin-right: auto; /* Push the div to the right */
+  z-index: 2; /* Ensure the details div is in front of the image */
+}
+
+.profile-details h3 {
+  margin-bottom: 10px;
+}
+
+.profile-details hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+.detail {
+  margin-bottom: 10px;
+}
+
+.detail-label {
+  font-weight: bold;
+}
+
+.detail-value {
+  margin-left: 10px;
+}
+
+#imagePreview {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-bottom: 10px;
+}
+
+#imagePreview:hover {
+  transform: scale(1.05);
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: 13px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #343a40; /* Dark background color */
+  padding-top: 20px; /* Add top padding */
+}
+
+/* Sidebar label styling */
+.sidebar label {
+  color: #ffffff; /* White text color */
+  font-size: 20px; /* Larger font size */
+  margin-bottom: 20px; /* Add bottom margin */
+  display: block; /* Display as block element */
+  text-align: center; /* Center-align text */
+}
+
+/* Sidebar link styling */
+.sidebar a {
+  padding: 10px 20px; /* Add padding */
+  text-decoration: none; /* Remove underline */
+  color: #ffffff; /* White text color */
+  display: block; /* Display as block element */
+  transition: background-color 0.3s ease; /* Add transition */
+}
+
+/* Active link styling */
+.sidebar a.active {
+  background-color: #007bff; /* Active link background color */
+}
+
+/* Hover link styling */
+.sidebar a:hover {
+  background-color: #0056b3; /* Hover link background color */
+}
+
+/* Content styling */
+.content {
+  margin-left: 250px; /* Adjust margin to accommodate the sidebar width */
+  padding: 20px; /* Add padding */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+/* Search form styling */
+#s12 {
+  margin-bottom: 20px; /* Add bottom margin */
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+#imagePreview
+{
+  margin-top: 12px;
+width:110px;
+height:110px;
+border-radius: 55px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #78b178; /* Change this to your desired thumb color */
+  border-radius: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ecf6f800; /* Change this to your desired track color */
+  border-radius: 6px;
+}
+
+/* Additional styles for Firefox */
+/* Firefox supports scrollbar styling through scrollbar-color and scrollbar-width */
+/* You can adjust the colors and width as needed */
+
+#d6
+{
+  margin-top: -128px;
+  padding-top: 3px;
+  margin-left: 120px;
+  width: fit-content;
+  font-family:Georgia;
+  font-size: 17px;
+  border-color: black;
+  font-style: italic;
+ 
+}
+
+label
+{
+  text-align: right;
+  padding-left:25%;
+}
+
+#mov
+{
+margin-left: 250px;
+
+width:900px;
+border-radius: 20px;
+background-color: #55555527;
+box-shadow:2px 2px 2px 2px #555;
+
+}
+.s1
+  {
+background-color: rgba(240, 248, 255, 0.123);
+
+width: 800px;
+margin-bottom: 2px;
+padding: 1rem;
+box-sizing: border-box;
+border: 3px solid rgb(112, 64, 64);
+box-shadow: 200px;
+border-radius: 20px;
+margin-left: 7%;
+margin-top: 10px;
+color: #e7dcdc;
+backdrop-filter: blur(12px);
+}
+#tptext{
+margin-left: 300px;
+}
+.In
+{
+  height: 30px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  border-radius: 6px;
+}
+.In:focus
+{
+
+ 
+  height: 30px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1px black;
+  margin-bottom: 5px;
+  border-radius: 6px;
+}
+
+.ft
+{
+  font-size:22px;
+  transform: translateY(-11px);
+  font-weight:bold;
+  padding-top: 12px;
+}
+tr td
+{
+  width: fit-content;
+}
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #08ed99ea;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+
+}
+
+
+
+#signup-button
+{
+  margin-left: 40%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 140px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  border-color: rgb(104, 85, 224, 1);
+  
+}
+#signup-button:hover
+{
+  background-color:rgb(104, 85, 224, 1) ;
+  color:#fff;
+}
+#signup-bg
+{
+
+backdrop-filter: blur(13px);
+  background-image: url(./img/food-4k-1vrcb0mw76zcg4qf.jpg);
+}
+.invalid
+{
+  background-color:gray;
+}
+#s12
+{
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+        /* Search Form Styles */
+        #searchForm {
+          margin-bottom: 20px;
+      }
+
+      #searchInput {
+          padding: 10px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          margin-right: 10px;
+      }
+
+      #searchButton {
+          padding: 10px 20px;
+          border-radius: 5px;
+          border: none;
+          background-color: #4CAF50;
+          color: white;
+          cursor: pointer;
+      }
+
+
+.messageContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  z-index: 99999; /* Ensure it's displayed in front of other elements */
+  
+}
+
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal content */
+.modal1-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 5% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Close button */
+.close1 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 5% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+.custom-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.custom-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.custom-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.custom-close:hover,
+.custom-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.logo1 a
+{
+  color: #81C408;
+  font-size: 45px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 35rem;
+margin-top: 5rem;
+}
+
+.memo-section {
+    display: none;
+    margin-top: 10px;
+}
+.memo-textarea {
+    width: 100%;
+    height: 100px;
+  
+}
+
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease; /* CSS transition for smooth animation */
+}
+
+
+#over,
+    #over1 {
+        background-color: #ffffff;
+       
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 190px;
+        height: 190px;
+        text-align: center;
+        margin: 10px 10px; /* Adjust the margin between the divs */
+    }
+
+
+
+    
+.table-wrapper{
+
+  box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+  font-family: Helvetica;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fl-table {
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: white;
+}
+
+.fl-table td, .fl-table th {
+  text-align: center;
+  padding: 8px;
+}
+
+.fl-table td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 14px;
+}
+
+.fl-table thead th {
+  color: #ffffff;
+  background: #4FC3A1;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+  color: #ffffff;
+  background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+  background: #F8F8F8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+  .fl-table {
+      display: block;
+      width: 100%;
+  }
+  .table-wrapper:before{
+      content: "Scroll horizontally >";
+      display: block;
+      text-align: right;
+      font-size: 11px;
+      color: white;
+      padding: 0 0 10px;
+  }
+  .fl-table thead, .fl-table tbody, .fl-table thead th {
+      display: block;
+  }
+  .fl-table thead th:last-child{
+      border-bottom: none;
+  }
+  .fl-table thead {
+      float: left;
+  }
+  .fl-table tbody {
+      width: auto;
+      position: relative;
+      overflow-x: auto;
+  }
+  .fl-table td, .fl-table th {
+      padding: 20px .625em .625em .625em;
+      height: 60px;
+      vertical-align: middle;
+      box-sizing: border-box;
+      overflow-x: hidden;
+      overflow-y: auto;
+      width: 120px;
+      font-size: 13px;
+      text-overflow: ellipsis;
+  }
+  .fl-table thead th {
+      text-align: left;
+      border-bottom: 1px solid #f7f7f9;
+  }
+  .fl-table tbody tr {
+      display: table-cell;
+  }
+  .fl-table tbody tr:nth-child(odd) {
+      background: none;
+  }
+  .fl-table tr:nth-child(even) {
+      background: transparent;
+  }
+  .fl-table tr td:nth-child(odd) {
+      background: #F8F8F8;
+      border-right: 1px solid #E6E4E4;
+  }
+  .fl-table tr td:nth-child(even) {
+      border-right: 1px solid #E6E4E4;
+  }
+  .fl-table tbody td {
+      display: block;
+      text-align: center;
+  }
+}
+
+

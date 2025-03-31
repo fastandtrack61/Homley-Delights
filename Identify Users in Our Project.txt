@@ -1,0 +1,54 @@
+Identify Users in Our Project:
+
+Administrator: Oversees the entire platform and monitors overall system performance.
+Regular User: Registers on the platform to explore and order food items.
+Sellers: Register on the platform to sell homely produced items.
+Employee: Manages all aspects of order processing, inventory management, and assists sellers.
+Delivery Person: Provides delivery details and updates on assigned orders to employees.
+Who Owns the System?
+
+This project is initiated and owned by myself. I have full control over the development, implementation, and operation of the platform.
+System's Relation to Firm/Industry/Organization:
+
+The system facilitates the delivery of homely produced items, primarily targeting local small businesses aiming to expand their reach by leveraging an online platform for selling their products.
+
+Details of the person contacted for data collection:
+
+Name: Shaji
+Phone: 9496278331
+Location: Kunchithanny, Kerala 685565
+
+Name of System: Shaji Hunch Home
+
+
+Specify the Users/Public Involved in the System:
+The primary users involved in the system are consumers, sellers, employees, and the general public. Consumers can explore and purchase products, while sellers can register and sell their homely produced items. Employees manage order processing and inventory. Additionally, investors or partners interested in investing or collaborating with the project may also be involved. If applicable, the project may also engage with an open-source community.
+
+
+
+
+
+Project Overview:
+
+The main goal of the system is to establish an online platform facilitating the delivery of homely produced food items, including breakfast, snacks, homemade cow milk, and fresh snacks, delivered in real-time. The primary objective is to provide a user-friendly experience for customers and an efficient process for sellers
+To what extent the system is proposed :
+
+The system covers various aspects addressing the diverse needs of different stakeholders and provides comprehensive solutions for delivering homemade meals to customers' homes. Key dimensions include:
+Product Range: Offering a diverse range of homely produced food items with a primary focus on snacks, breakfast, and evening munchies.
+User Interaction: Facilitating interactions at different levels, including registration, ordering, scheduling deliveries, and providing feedback through a rating system. Users can customize their delivery preferences from one date to another on a consistent schedule.
+Seller Registration and Management: Sellers can register on the platform and contribute their available food items. The seller registration process ensures streamlined onboarding.
+Order Management: Efficient order management processes allow users to place orders at any time with same-day delivery for freshly made items. A cancellation policy is also implemented.
+User Roles: Users have access to a user-friendly interface for exploring homely produced food items. User roles include administrator, employee, customer, seller, and delivery person.
+Feedback and Improvement: The platform incorporates a rating system that allows users to provide feedback on purchased items. Sellers can access reviews to enhance their product offerings.
+List of Modules Included in Your System:
+
+User Management Module
+Order Management Module
+Product Management Module
+Scheduling Module
+Cancellation Module
+Rating or Review Module
+User Dashboard Module
+Seller Dashboard Module
+Administrator Module
+Delivery Person Module
